@@ -402,6 +402,18 @@
     [
       "7c3568f8-efef-4286-b162-68a5b336ac36",
       "3.3V Buck Converter"
+    ],
+    [
+      "b12608c4-74bb-4ec7-8be3-78c3f8a81cd8",
+      "Measurement"
+    ],
+    [
+      "a5b1ba07-0ccc-4e60-84be-65366c488a00",
+      "IO-Board"
+    ],
+    [
+      "0021e422-06e0-4ec7-9ab8-9b02c88cc030",
+      "3.3V Buck Converter1"
     ]
   ],
   "text_variables": {
