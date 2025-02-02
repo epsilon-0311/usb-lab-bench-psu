@@ -5472,7 +5472,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0556bf32-a5e1-4c86-b7af-6d730bbb5bdb")
-		(property "Reference" "C24"
+		(property "Reference" "C10"
 			(at 25.4 35.56 0)
 			(effects
 				(font
@@ -5526,7 +5526,7 @@
 		(instances
 			(project "usb-lab-bench-psu"
 				(path "/63928bc9-e618-488a-a687-c6d5597f31d9/445080ef-739d-4817-b509-08b627e2bdcd"
-					(reference "C24")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -5541,7 +5541,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0cc02319-37c2-4195-b498-c9b8961d9a8f")
-		(property "Reference" "C23"
+		(property "Reference" "C22"
 			(at 262.89 144.7799 0)
 			(effects
 				(font
@@ -5595,7 +5595,7 @@
 		(instances
 			(project "usb-lab-bench-psu"
 				(path "/63928bc9-e618-488a-a687-c6d5597f31d9/445080ef-739d-4817-b509-08b627e2bdcd"
-					(reference "C23")
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -5611,7 +5611,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "103b5d5a-68cf-4b1d-9f12-faf367bc4a76")
-		(property "Reference" "R12"
+		(property "Reference" "R22"
 			(at 275.59 130.8099 0)
 			(effects
 				(font
@@ -5665,7 +5665,7 @@
 		(instances
 			(project "usb-lab-bench-psu"
 				(path "/63928bc9-e618-488a-a687-c6d5597f31d9/445080ef-739d-4817-b509-08b627e2bdcd"
-					(reference "R12")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -5750,7 +5750,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "15c781f9-1e68-4864-8cc1-66a60ed34f8a")
-		(property "Reference" "C33"
+		(property "Reference" "C19"
 			(at 219.71 63.4999 0)
 			(effects
 				(font
@@ -5804,7 +5804,7 @@
 		(instances
 			(project "usb-lab-bench-psu"
 				(path "/63928bc9-e618-488a-a687-c6d5597f31d9/445080ef-739d-4817-b509-08b627e2bdcd"
-					(reference "C33")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -5819,7 +5819,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "21d90c1f-91e1-47b9-ae39-0e3ec3037b27")
-		(property "Reference" "J2"
+		(property "Reference" "J4"
 			(at 28.956 135.89 0)
 			(effects
 				(font
@@ -5916,7 +5916,7 @@
 		(instances
 			(project "usb-lab-bench-psu"
 				(path "/63928bc9-e618-488a-a687-c6d5597f31d9/445080ef-739d-4817-b509-08b627e2bdcd"
-					(reference "J2")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -5933,7 +5933,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "225d132f-9415-4f9b-9f5e-a8afec5075a6")
-		(property "Reference" "R29"
+		(property "Reference" "R18"
 			(at 62.23 179.0699 0)
 			(effects
 				(font
@@ -5987,7 +5987,7 @@
 		(instances
 			(project "usb-lab-bench-psu"
 				(path "/63928bc9-e618-488a-a687-c6d5597f31d9/445080ef-739d-4817-b509-08b627e2bdcd"
-					(reference "R29")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -6002,7 +6002,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2b55beec-91c5-4e42-96c8-0d3bd8028299")
-		(property "Reference" "C27"
+		(property "Reference" "C13"
 			(at 55.88 35.56 0)
 			(effects
 				(font
@@ -6056,7 +6056,7 @@
 		(instances
 			(project "usb-lab-bench-psu"
 				(path "/63928bc9-e618-488a-a687-c6d5597f31d9/445080ef-739d-4817-b509-08b627e2bdcd"
-					(reference "C27")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -6071,7 +6071,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2f4292d7-539f-4cb2-923a-d4befa04e635")
-		(property "Reference" "R48"
+		(property "Reference" "R19"
 			(at 108.712 55.88 0)
 			(effects
 				(font
@@ -6125,7 +6125,7 @@
 		(instances
 			(project "usb-lab-bench-psu"
 				(path "/63928bc9-e618-488a-a687-c6d5597f31d9/445080ef-739d-4817-b509-08b627e2bdcd"
-					(reference "R48")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -6140,7 +6140,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "354ea7c0-bcfb-4de4-838d-278c27838a37")
-		(property "Reference" "C31"
+		(property "Reference" "C15"
 			(at 82.55 35.56 0)
 			(effects
 				(font
@@ -6194,7 +6194,7 @@
 		(instances
 			(project "usb-lab-bench-psu"
 				(path "/63928bc9-e618-488a-a687-c6d5597f31d9/445080ef-739d-4817-b509-08b627e2bdcd"
-					(reference "C31")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -6209,7 +6209,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3e2ce2a0-facf-4790-87f8-085d07a0774d")
-		(property "Reference" "C25"
+		(property "Reference" "C11"
 			(at 36.83 35.56 0)
 			(effects
 				(font
@@ -6263,7 +6263,7 @@
 		(instances
 			(project "usb-lab-bench-psu"
 				(path "/63928bc9-e618-488a-a687-c6d5597f31d9/445080ef-739d-4817-b509-08b627e2bdcd"
-					(reference "C25")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -6280,7 +6280,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3e3b77bb-06a9-4779-87d4-87e9b2c533ee")
-		(property "Reference" "C34"
+		(property "Reference" "C21"
 			(at 231.14 63.4999 0)
 			(effects
 				(font
@@ -6334,7 +6334,7 @@
 		(instances
 			(project "usb-lab-bench-psu"
 				(path "/63928bc9-e618-488a-a687-c6d5597f31d9/445080ef-739d-4817-b509-08b627e2bdcd"
-					(reference "C34")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -6349,7 +6349,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "50f45d28-f5db-4d96-855e-74aa52d7fd2d")
-		(property "Reference" "U6"
+		(property "Reference" "U2"
 			(at 115.57 147.32 0)
 			(effects
 				(font
@@ -6415,7 +6415,7 @@
 		(instances
 			(project "usb-lab-bench-psu"
 				(path "/63928bc9-e618-488a-a687-c6d5597f31d9/445080ef-739d-4817-b509-08b627e2bdcd"
-					(reference "U6")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -6432,7 +6432,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "519e48df-cba8-4117-88eb-393ed6b8af9f")
-		(property "Reference" "R28"
+		(property "Reference" "R17"
 			(at 53.34 179.0699 0)
 			(effects
 				(font
@@ -6486,7 +6486,7 @@
 		(instances
 			(project "usb-lab-bench-psu"
 				(path "/63928bc9-e618-488a-a687-c6d5597f31d9/445080ef-739d-4817-b509-08b627e2bdcd"
-					(reference "R28")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -6501,7 +6501,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "51f63763-fcdc-4ca6-9904-ad547caaefd3")
-		(property "Reference" "SW1"
+		(property "Reference" "SW2"
 			(at 274.32 144.78 90)
 			(effects
 				(font
@@ -6555,7 +6555,7 @@
 		(instances
 			(project "usb-lab-bench-psu"
 				(path "/63928bc9-e618-488a-a687-c6d5597f31d9/445080ef-739d-4817-b509-08b627e2bdcd"
-					(reference "SW1")
+					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -6808,7 +6808,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7e46adaa-b74f-474c-ba0d-f5608a276d1d")
-		(property "Reference" "C30"
+		(property "Reference" "C18"
 			(at 105.41 111.76 90)
 			(effects
 				(font
@@ -6860,7 +6860,7 @@
 		(instances
 			(project "usb-lab-bench-psu"
 				(path "/63928bc9-e618-488a-a687-c6d5597f31d9/445080ef-739d-4817-b509-08b627e2bdcd"
-					(reference "C30")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -6875,7 +6875,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7fd7b173-4961-4c1e-a946-93ab75495b9b")
-		(property "Reference" "C26"
+		(property "Reference" "C12"
 			(at 48.26 35.56 0)
 			(effects
 				(font
@@ -6929,7 +6929,7 @@
 		(instances
 			(project "usb-lab-bench-psu"
 				(path "/63928bc9-e618-488a-a687-c6d5597f31d9/445080ef-739d-4817-b509-08b627e2bdcd"
-					(reference "C26")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -6944,7 +6944,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "803f571d-d145-4c52-b8e6-f4c8b125ca2a")
-		(property "Reference" "R19"
+		(property "Reference" "R21"
 			(at 130.81 110.49 90)
 			(effects
 				(font
@@ -6996,7 +6996,7 @@
 		(instances
 			(project "usb-lab-bench-psu"
 				(path "/63928bc9-e618-488a-a687-c6d5597f31d9/445080ef-739d-4817-b509-08b627e2bdcd"
-					(reference "R19")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -7011,7 +7011,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "83925fe3-4857-4d7f-982b-fce306c63202")
-		(property "Reference" "C32"
+		(property "Reference" "C16"
 			(at 88.9 35.56 0)
 			(effects
 				(font
@@ -7065,7 +7065,7 @@
 		(instances
 			(project "usb-lab-bench-psu"
 				(path "/63928bc9-e618-488a-a687-c6d5597f31d9/445080ef-739d-4817-b509-08b627e2bdcd"
-					(reference "C32")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -7147,7 +7147,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a7284c63-a6b6-46df-9baf-bb9c9dc52b1c")
-		(property "Reference" "C28"
+		(property "Reference" "C14"
 			(at 66.04 35.56 0)
 			(effects
 				(font
@@ -7201,7 +7201,7 @@
 		(instances
 			(project "usb-lab-bench-psu"
 				(path "/63928bc9-e618-488a-a687-c6d5597f31d9/445080ef-739d-4817-b509-08b627e2bdcd"
-					(reference "C28")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -7284,7 +7284,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cc96e98d-185a-4a1c-8c7a-d67e119322d2")
-		(property "Reference" "C29"
+		(property "Reference" "C17"
 			(at 105.41 90.17 90)
 			(effects
 				(font
@@ -7336,7 +7336,7 @@
 		(instances
 			(project "usb-lab-bench-psu"
 				(path "/63928bc9-e618-488a-a687-c6d5597f31d9/445080ef-739d-4817-b509-08b627e2bdcd"
-					(reference "C29")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -7351,7 +7351,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d1e45026-5bb2-4d52-8005-ed94da1ad29d")
-		(property "Reference" "C35"
+		(property "Reference" "C20"
 			(at 232.41 125.73 0)
 			(effects
 				(font
@@ -7405,7 +7405,7 @@
 		(instances
 			(project "usb-lab-bench-psu"
 				(path "/63928bc9-e618-488a-a687-c6d5597f31d9/445080ef-739d-4817-b509-08b627e2bdcd"
-					(reference "C35")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -7420,7 +7420,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d234a66c-fce9-4383-8ee2-402d989af523")
-		(property "Reference" "C22"
+		(property "Reference" "C9"
 			(at 17.78 35.56 0)
 			(effects
 				(font
@@ -7474,7 +7474,7 @@
 		(instances
 			(project "usb-lab-bench-psu"
 				(path "/63928bc9-e618-488a-a687-c6d5597f31d9/445080ef-739d-4817-b509-08b627e2bdcd"
-					(reference "C22")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -7490,7 +7490,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d77566ff-9cdb-4493-bd01-faf851d31a46")
-		(property "Reference" "#FLG015"
+		(property "Reference" "#FLG06"
 			(at 35.56 20.955 0)
 			(effects
 				(font
@@ -7540,7 +7540,7 @@
 		(instances
 			(project ""
 				(path "/63928bc9-e618-488a-a687-c6d5597f31d9/445080ef-739d-4817-b509-08b627e2bdcd"
-					(reference "#FLG015")
+					(reference "#FLG06")
 					(unit 1)
 				)
 			)
@@ -7641,7 +7641,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f2fbca8e-c451-45a4-be31-b3aeaf142fa2")
-		(property "Reference" "R47"
+		(property "Reference" "R20"
 			(at 121.92 55.8799 0)
 			(effects
 				(font
@@ -7695,7 +7695,7 @@
 		(instances
 			(project ""
 				(path "/63928bc9-e618-488a-a687-c6d5597f31d9/445080ef-739d-4817-b509-08b627e2bdcd"
-					(reference "R47")
+					(reference "R20")
 					(unit 1)
 				)
 			)

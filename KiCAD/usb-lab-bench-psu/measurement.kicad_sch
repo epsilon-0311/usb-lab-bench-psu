@@ -1821,7 +1821,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "30aa7550-2699-4317-bfd5-8d5edf4f6767")
-		(property "Reference" "#FLG014"
+		(property "Reference" "#FLG012"
 			(at 40.64 56.515 0)
 			(effects
 				(font
@@ -1871,7 +1871,7 @@
 		(instances
 			(project "usb-lab-bench-psu"
 				(path "/63928bc9-e618-488a-a687-c6d5597f31d9/b12608c4-74bb-4ec7-8be3-78c3f8a81cd8"
-					(reference "#FLG014")
+					(reference "#FLG012")
 					(unit 1)
 				)
 			)
@@ -1887,7 +1887,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "95d64394-93ae-4f2c-ad12-77df60e1a2e2")
-		(property "Reference" "R34"
+		(property "Reference" "R31"
 			(at 50.8 66.0399 0)
 			(effects
 				(font
@@ -1941,7 +1941,7 @@
 		(instances
 			(project ""
 				(path "/63928bc9-e618-488a-a687-c6d5597f31d9/b12608c4-74bb-4ec7-8be3-78c3f8a81cd8"
-					(reference "R34")
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -1957,7 +1957,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "98fbc614-717c-4df9-96f9-bc60095e525c")
-		(property "Reference" "R42"
+		(property "Reference" "R33"
 			(at 124.46 54.6099 0)
 			(effects
 				(font
@@ -2011,7 +2011,7 @@
 		(instances
 			(project "usb-lab-bench-psu"
 				(path "/63928bc9-e618-488a-a687-c6d5597f31d9/b12608c4-74bb-4ec7-8be3-78c3f8a81cd8"
-					(reference "R42")
+					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -2027,7 +2027,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ab072d10-f1d7-494d-84c8-622a1a228a69")
-		(property "Reference" "R35"
+		(property "Reference" "R32"
 			(at 115.57 54.6099 0)
 			(effects
 				(font
@@ -2081,7 +2081,7 @@
 		(instances
 			(project ""
 				(path "/63928bc9-e618-488a-a687-c6d5597f31d9/b12608c4-74bb-4ec7-8be3-78c3f8a81cd8"
-					(reference "R35")
+					(reference "R32")
 					(unit 1)
 				)
 			)
@@ -2097,7 +2097,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f1301d31-1892-47c7-92a5-e77683e20ac2")
-		(property "Reference" "U7"
+		(property "Reference" "U8"
 			(at 86.0141 48.26 0)
 			(effects
 				(font
@@ -2175,7 +2175,7 @@
 		(instances
 			(project ""
 				(path "/63928bc9-e618-488a-a687-c6d5597f31d9/b12608c4-74bb-4ec7-8be3-78c3f8a81cd8"
-					(reference "U7")
+					(reference "U8")
 					(unit 1)
 				)
 			)
