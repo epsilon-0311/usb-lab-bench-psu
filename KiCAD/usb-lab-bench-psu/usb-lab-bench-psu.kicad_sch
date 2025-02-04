@@ -2783,7 +2783,7 @@
 		(on_board no)
 		(dnp no)
 		(uuid "dbcf9b64-6961-4b04-92bc-61221cd8c004")
-		(property "Reference" "+2V01"
+		(property "Reference" "#+2V01"
 			(at 95.504 24.13 0)
 			(effects
 				(font
@@ -2834,7 +2834,7 @@
 		(instances
 			(project ""
 				(path "/63928bc9-e618-488a-a687-c6d5597f31d9"
-					(reference "+2V01")
+					(reference "#+2V01")
 					(unit 1)
 				)
 			)

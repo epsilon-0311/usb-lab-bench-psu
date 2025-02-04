@@ -2340,7 +2340,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R5k1"
+		(property "Value" "5k1"
 			(at 35.56 36.8299 0)
 			(effects
 				(font
@@ -3080,7 +3080,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R5k1"
+		(property "Value" "5k1"
 			(at 24.13 37.084 0)
 			(effects
 				(font
