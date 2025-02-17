@@ -1831,7 +1831,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "029ddaa1-07f5-47a9-bbfe-423b0ad49fc1")
-		(property "Reference" "R51"
+		(property "Reference" "R92"
 			(at 41.656 81.28 0)
 			(effects
 				(font
@@ -1989,7 +1989,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2c24aa40-0228-4bf3-a867-ae6fce5dc343")
-		(property "Reference" "R57"
+		(property "Reference" "R95"
 			(at 129.54 82.55 90)
 			(effects
 				(font
@@ -2196,7 +2196,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "505af858-3ab7-4a48-a6b8-c7779ceece7a")
-		(property "Reference" "R52"
+		(property "Reference" "R93"
 			(at 53.34 81.2799 0)
 			(effects
 				(font
@@ -2266,7 +2266,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "552e46ae-1d54-4dee-9bc2-d20878eeb839")
-		(property "Reference" "TP10"
+		(property "Reference" "TP17"
 			(at 135.89 79.2479 0)
 			(effects
 				(font
@@ -2505,7 +2505,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "74e6cb75-9a3f-4c8b-bd1d-76573853ce20")
-		(property "Reference" "R58"
+		(property "Reference" "R96"
 			(at 129.54 97.79 90)
 			(effects
 				(font
@@ -2643,7 +2643,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "80b40a53-175f-430b-9cd7-5776855ba6ae")
-		(property "Reference" "R60"
+		(property "Reference" "R99"
 			(at 170.18 41.91 90)
 			(effects
 				(font
@@ -2711,7 +2711,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "854c649a-3ae9-47af-b3d6-55851d7afd4f")
-		(property "Reference" "R64"
+		(property "Reference" "R98"
 			(at 167.64 88.8999 0)
 			(effects
 				(font
@@ -2781,7 +2781,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "85f90148-0d75-4b59-b973-b43217ccf8c5")
-		(property "Reference" "R63"
+		(property "Reference" "R97"
 			(at 167.64 68.5799 0)
 			(effects
 				(font
@@ -2851,7 +2851,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a6675b08-a853-4992-99c5-9c3f12750448")
-		(property "Reference" "R56"
+		(property "Reference" "R94"
 			(at 116.84 96.52 90)
 			(effects
 				(font
@@ -2919,7 +2919,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ce68f5c8-1194-43e8-817c-9b4956c97544")
-		(property "Reference" "TP11"
+		(property "Reference" "TP18"
 			(at 135.89 103.3779 0)
 			(effects
 				(font
@@ -2985,7 +2985,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d8d3a50f-c529-4652-80c1-ba8da791c195")
-		(property "Reference" "TP12"
+		(property "Reference" "TP16"
 			(at 90.932 77.216 0)
 			(effects
 				(font
@@ -3051,7 +3051,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "db2098fb-d5c5-4306-a983-17d1ff93d313")
-		(property "Reference" "R59"
+		(property "Reference" "R91"
 			(at 27.686 82.55 0)
 			(effects
 				(font
@@ -3121,7 +3121,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dcd833ad-04c2-402a-b4c8-a3dfe64912b8")
-		(property "Reference" "U11"
+		(property "Reference" "U16"
 			(at 75.8541 82.55 0)
 			(effects
 				(font

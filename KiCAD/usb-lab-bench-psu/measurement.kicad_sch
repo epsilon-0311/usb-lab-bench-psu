@@ -1649,7 +1649,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2135c3ed-cc7b-4fc9-9bce-0a2c92605193")
-		(property "Reference" "J8"
+		(property "Reference" "J24"
 			(at 187.96 76.2 0)
 			(effects
 				(font
@@ -1821,7 +1821,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "30aa7550-2699-4317-bfd5-8d5edf4f6767")
-		(property "Reference" "#FLG012"
+		(property "Reference" "#FLG016"
 			(at 40.64 56.515 0)
 			(effects
 				(font
@@ -1957,7 +1957,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "98fbc614-717c-4df9-96f9-bc60095e525c")
-		(property "Reference" "R33"
+		(property "Reference" "R76"
 			(at 124.46 54.6099 0)
 			(effects
 				(font
