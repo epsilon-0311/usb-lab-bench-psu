@@ -3,4 +3,5 @@
   (lib (name "Prj_dcdc_converter")(type "KiCad")(uri "${KIPRJMOD}/../libraries/Prj_dcdc_converter.kicad_sym")(options "")(descr ""))
   (lib (name "Prj_esd")(type "KiCad")(uri "${KIPRJMOD}/../libraries/Prj_esd.kicad_sym")(options "")(descr ""))
   (lib (name "Prj_power")(type "KiCad")(uri "${KIPRJMOD}/../libraries/Prj_power.kicad_sym")(options "")(descr ""))
+  (lib (name "Prj_DAC")(type "KiCad")(uri "${KIPRJMOD}/../libraries/Prj_DAC.kicad_sym")(options "")(descr ""))
 )
