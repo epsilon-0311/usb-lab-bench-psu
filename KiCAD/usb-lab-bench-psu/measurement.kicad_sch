@@ -1,13 +1,15 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "1923eab9-5195-4c8c-9b94-ca8e0ed15cd8")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_02x04_Top_Bottom"
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -74,19 +76,19 @@
 			)
 			(symbol "Conn_02x04_Top_Bottom_1_1"
 				(rectangle
-					(start -1.27 -4.953)
-					(end 0 -5.207)
+					(start -1.27 3.81)
+					(end 3.81 -6.35)
 					(stroke
-						(width 0.1524)
+						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
 				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
+					(start -1.27 2.667)
+					(end 0 2.413)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -107,8 +109,8 @@
 					)
 				)
 				(rectangle
-					(start -1.27 2.667)
-					(end 0 2.413)
+					(start -1.27 -2.413)
+					(end 0 -2.667)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -118,19 +120,8 @@
 					)
 				)
 				(rectangle
-					(start -1.27 3.81)
-					(end 3.81 -6.35)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start 3.81 -4.953)
-					(end 2.54 -5.207)
+					(start -1.27 -4.953)
+					(end 0 -5.207)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -140,8 +131,8 @@
 					)
 				)
 				(rectangle
-					(start 3.81 -2.413)
-					(end 2.54 -2.667)
+					(start 3.81 2.667)
+					(end 2.54 2.413)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -162,8 +153,19 @@
 					)
 				)
 				(rectangle
-					(start 3.81 2.667)
-					(end 2.54 2.413)
+					(start 3.81 -2.413)
+					(end 2.54 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 -4.953)
+					(end 2.54 -5.207)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -317,9 +319,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:R"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -438,6 +443,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Sensor_Energy:INA226"
 			(exclude_from_sim no)
@@ -519,16 +525,16 @@
 			)
 			(symbol "INA226_1_1"
 				(pin input line
-					(at 10.16 7.62 180)
+					(at -10.16 7.62 0)
 					(length 2.54)
-					(name "A1"
+					(name "Vbus"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "1"
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -555,70 +561,16 @@
 					)
 				)
 				(pin input line
-					(at 10.16 5.08 180)
+					(at -10.16 -5.08 0)
 					(length 2.54)
-					(name "A0"
+					(name "Vin-"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin open_collector line
-					(at 10.16 -7.62 180)
-					(length 2.54)
-					(name "~{Alert}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 10.16 0 180)
-					(length 2.54)
-					(name "SDA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 10.16 -2.54 180)
-					(length 2.54)
-					(name "SCL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -663,16 +615,16 @@
 					)
 				)
 				(pin input line
-					(at -10.16 7.62 0)
+					(at 10.16 7.62 180)
 					(length 2.54)
-					(name "Vbus"
+					(name "A1"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "8"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -681,16 +633,70 @@
 					)
 				)
 				(pin input line
-					(at -10.16 -5.08 0)
+					(at 10.16 5.08 180)
 					(length 2.54)
-					(name "Vin-"
+					(name "A0"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "9"
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 10.16 -7.62 180)
+					(length 2.54)
+					(name "~{Alert}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -699,12 +705,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:PWR_FLAG"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -795,6 +806,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 	)
 	(junction
@@ -1649,7 +1661,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2135c3ed-cc7b-4fc9-9bce-0a2c92605193")
-		(property "Reference" "J24"
+		(property "Reference" "J23"
 			(at 187.96 76.2 0)
 			(effects
 				(font
@@ -1719,7 +1731,7 @@
 		(instances
 			(project "usb-lab-bench-psu"
 				(path "/63928bc9-e618-488a-a687-c6d5597f31d9/a793a91b-724b-4226-ba64-0dd946e3992c/1c93d33d-e5b7-4541-9c9e-21c6156d2ca5"
-					(reference "J24")
+					(reference "J23")
 					(unit 1)
 				)
 			)
@@ -1735,7 +1747,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2209cc19-f74e-4b1c-a72b-e1af0be7ce2f")
-		(property "Reference" "J23"
+		(property "Reference" "J22"
 			(at 187.96 58.42 0)
 			(effects
 				(font
@@ -1805,7 +1817,7 @@
 		(instances
 			(project "usb-lab-bench-psu"
 				(path "/63928bc9-e618-488a-a687-c6d5597f31d9/a793a91b-724b-4226-ba64-0dd946e3992c/1c93d33d-e5b7-4541-9c9e-21c6156d2ca5"
-					(reference "J23")
+					(reference "J22")
 					(unit 1)
 				)
 			)
@@ -1821,7 +1833,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "30aa7550-2699-4317-bfd5-8d5edf4f6767")
-		(property "Reference" "#FLG016"
+		(property "Reference" "#FLG015"
 			(at 40.64 56.515 0)
 			(effects
 				(font
@@ -1871,7 +1883,7 @@
 		(instances
 			(project "usb-lab-bench-psu"
 				(path "/63928bc9-e618-488a-a687-c6d5597f31d9/a793a91b-724b-4226-ba64-0dd946e3992c/1c93d33d-e5b7-4541-9c9e-21c6156d2ca5"
-					(reference "#FLG016")
+					(reference "#FLG015")
 					(unit 1)
 				)
 			)
@@ -1887,7 +1899,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "95d64394-93ae-4f2c-ad12-77df60e1a2e2")
-		(property "Reference" "R74"
+		(property "Reference" "R56"
 			(at 50.8 66.0399 0)
 			(effects
 				(font
@@ -1941,7 +1953,7 @@
 		(instances
 			(project "usb-lab-bench-psu"
 				(path "/63928bc9-e618-488a-a687-c6d5597f31d9/a793a91b-724b-4226-ba64-0dd946e3992c/1c93d33d-e5b7-4541-9c9e-21c6156d2ca5"
-					(reference "R74")
+					(reference "R56")
 					(unit 1)
 				)
 			)
@@ -1957,7 +1969,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "98fbc614-717c-4df9-96f9-bc60095e525c")
-		(property "Reference" "R76"
+		(property "Reference" "R58"
 			(at 124.46 54.6099 0)
 			(effects
 				(font
@@ -2011,7 +2023,7 @@
 		(instances
 			(project "usb-lab-bench-psu"
 				(path "/63928bc9-e618-488a-a687-c6d5597f31d9/a793a91b-724b-4226-ba64-0dd946e3992c/1c93d33d-e5b7-4541-9c9e-21c6156d2ca5"
-					(reference "R76")
+					(reference "R58")
 					(unit 1)
 				)
 			)
@@ -2027,7 +2039,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ab072d10-f1d7-494d-84c8-622a1a228a69")
-		(property "Reference" "R75"
+		(property "Reference" "R57"
 			(at 115.57 54.6099 0)
 			(effects
 				(font
@@ -2081,7 +2093,7 @@
 		(instances
 			(project "usb-lab-bench-psu"
 				(path "/63928bc9-e618-488a-a687-c6d5597f31d9/a793a91b-724b-4226-ba64-0dd946e3992c/1c93d33d-e5b7-4541-9c9e-21c6156d2ca5"
-					(reference "R75")
+					(reference "R57")
 					(unit 1)
 				)
 			)
@@ -2097,7 +2109,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f1301d31-1892-47c7-92a5-e77683e20ac2")
-		(property "Reference" "U12"
+		(property "Reference" "U14"
 			(at 86.0141 48.26 0)
 			(effects
 				(font
@@ -2175,7 +2187,7 @@
 		(instances
 			(project "usb-lab-bench-psu"
 				(path "/63928bc9-e618-488a-a687-c6d5597f31d9/a793a91b-724b-4226-ba64-0dd946e3992c/1c93d33d-e5b7-4541-9c9e-21c6156d2ca5"
-					(reference "U12")
+					(reference "U14")
 					(unit 1)
 				)
 			)
