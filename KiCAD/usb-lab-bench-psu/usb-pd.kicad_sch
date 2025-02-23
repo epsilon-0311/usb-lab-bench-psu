@@ -2317,7 +2317,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 27.94) (xy 158.75 49.53)
+			(xy 158.75 27.94) (xy 158.75 48.26)
 		)
 		(stroke
 			(width 0)
@@ -2547,7 +2547,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 49.53) (xy 173.99 49.53)
+			(xy 158.75 48.26) (xy 173.99 48.26)
 		)
 		(stroke
 			(width 0)
@@ -3017,8 +3017,8 @@
 		)
 		(uuid "02aed70c-24ce-46aa-8984-19b745bde8da")
 	)
-	(hierarchical_label "V-OUT"
-		(shape bidirectional)
+	(hierarchical_label "VOUT"
+		(shape output)
 		(at 83.82 121.92 0)
 		(effects
 			(font
@@ -3050,7 +3050,7 @@
 		)
 		(uuid "19f9a90b-a71e-4ab5-bc86-037ad759a311")
 	)
-	(hierarchical_label "+3V3"
+	(hierarchical_label "3V3"
 		(shape output)
 		(at 92.71 39.37 180)
 		(effects
@@ -3116,7 +3116,7 @@
 		)
 		(uuid "b1584d73-a5f1-47ac-9f32-59a5a66800b7")
 	)
-	(hierarchical_label "+3V3"
+	(hierarchical_label "3V3"
 		(shape output)
 		(at 60.96 137.16 0)
 		(effects
@@ -3762,7 +3762,7 @@
 				(justify left top)
 			)
 		)
-		(pin "3V3" output
+		(pin "3V3" input
 			(at 209.55 35.56 0)
 			(uuid "31b14123-16f8-4adf-b6b2-e764009799f0")
 			(effects
@@ -3831,8 +3831,8 @@
 		)
 	)
 	(sheet
-		(at 173.99 46.736)
-		(size 35.4838 9.3218)
+		(at 173.99 45.72)
+		(size 35.4838 7.62)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3847,7 +3847,7 @@
 		)
 		(uuid "be63a1fd-c574-4431-a13c-219279271461")
 		(property "Sheetname" "3.3V Buck Converter1"
-			(at 173.99 46.0244 0)
+			(at 173.99 45.0084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3856,7 +3856,7 @@
 			)
 		)
 		(property "Sheetfile" "usb_pd_buck_converter.kicad_sch"
-			(at 173.99 56.6424 0)
+			(at 173.99 53.9246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3864,7 +3864,7 @@
 				(justify left top)
 			)
 		)
-		(pin "V-OUT" input
+		(pin "VOUT" output
 			(at 209.4738 48.26 0)
 			(uuid "3eeeec15-b623-4970-8486-fe3f3bb59c2f")
 			(effects
@@ -3884,8 +3884,8 @@
 				(justify right)
 			)
 		)
-		(pin "VIN" output
-			(at 173.99 49.53 180)
+		(pin "VIN" input
+			(at 173.99 48.26 180)
 			(uuid "9dc94811-def5-4de5-8461-9018ad5a2347")
 			(effects
 				(font
@@ -4026,7 +4026,7 @@
 				(justify left)
 			)
 		)
-		(pin "+3V3" input
+		(pin "3V3" input
 			(at 100.33 39.37 180)
 			(uuid "26497985-5dcd-4386-b224-6209175b508a")
 			(effects

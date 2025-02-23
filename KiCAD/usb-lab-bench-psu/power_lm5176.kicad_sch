@@ -4474,7 +4474,7 @@
 		(uuid "3a4f3fd0-031d-45cc-afd5-efc6776e9828")
 	)
 	(hierarchical_label "VIN"
-		(shape output)
+		(shape input)
 		(at 30.48 25.4 180)
 		(effects
 			(font
@@ -4540,7 +4540,7 @@
 		(uuid "8b3d2a06-d498-4085-a58a-158519d1df48")
 	)
 	(hierarchical_label "FB"
-		(shape output)
+		(shape input)
 		(at 101.6 88.9 0)
 		(effects
 			(font
@@ -4562,7 +4562,7 @@
 		(uuid "a4d04b9c-70d9-418b-8c1e-68cedb1cbc57")
 	)
 	(hierarchical_label "VOUT"
-		(shape input)
+		(shape output)
 		(at 275.59 35.56 0)
 		(effects
 			(font
@@ -4595,7 +4595,7 @@
 		(uuid "bb4c11bf-48e8-4795-86c2-63db61811b29")
 	)
 	(hierarchical_label "~{EN}"
-		(shape output)
+		(shape input)
 		(at 24.13 180.34 180)
 		(effects
 			(font
@@ -4606,7 +4606,7 @@
 		(uuid "c25a80c7-a910-4c03-9cef-fce6145f1eb0")
 	)
 	(hierarchical_label "VIN"
-		(shape output)
+		(shape input)
 		(at 52.07 152.4 90)
 		(effects
 			(font

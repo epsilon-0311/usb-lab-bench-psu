@@ -2140,7 +2140,7 @@
 		(uuid "2aff003e-fe80-4b60-8ea2-aaa8c62b7e05")
 	)
 	(hierarchical_label "3V3"
-		(shape output)
+		(shape input)
 		(at 154.94 85.09 90)
 		(effects
 			(font

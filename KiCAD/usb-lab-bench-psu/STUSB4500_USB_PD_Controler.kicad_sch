@@ -3367,7 +3367,7 @@
 		)
 		(uuid "33c7de06-3952-48ee-b383-ed3b73ed82a2")
 	)
-	(hierarchical_label "+3V3"
+	(hierarchical_label "3V3"
 		(shape input)
 		(at 100.33 138.43 0)
 		(effects
@@ -3400,7 +3400,7 @@
 		)
 		(uuid "59b5a778-c2d7-4620-b1bd-b00671e3b184")
 	)
-	(hierarchical_label "+3V3"
+	(hierarchical_label "3V3"
 		(shape input)
 		(at 58.42 105.41 90)
 		(effects

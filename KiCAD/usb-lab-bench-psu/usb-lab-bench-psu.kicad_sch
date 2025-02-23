@@ -897,7 +897,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 31.75) (xy 118.11 31.75)
+			(xy 107.95 31.75) (xy 110.49 31.75)
 		)
 		(stroke
 			(width 0)
@@ -1047,7 +1047,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 29.21) (xy 149.86 29.21)
+			(xy 107.95 29.21) (xy 149.86 29.21)
 		)
 		(stroke
 			(width 0)
@@ -1197,7 +1197,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 30.48) (xy 185.42 30.48)
+			(xy 172.72 29.21) (xy 185.42 29.21)
 		)
 		(stroke
 			(width 0)
@@ -1287,7 +1287,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 33.02) (xy 179.07 33.02)
+			(xy 185.42 31.75) (xy 179.07 31.75)
 		)
 		(stroke
 			(width 0)
@@ -1347,7 +1347,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 29.21) (xy 100.33 29.21)
+			(xy 74.93 29.21) (xy 92.71 29.21)
 		)
 		(stroke
 			(width 0)
@@ -1467,7 +1467,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 31.75) (xy 100.33 31.75)
+			(xy 88.9 31.75) (xy 92.71 31.75)
 		)
 		(stroke
 			(width 0)
@@ -1487,7 +1487,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 33.02) (xy 179.07 38.1)
+			(xy 179.07 31.75) (xy 179.07 38.1)
 		)
 		(stroke
 			(width 0)
@@ -1806,7 +1806,7 @@
 		(uuid "24fb4639-73da-49cc-b293-b245b4fa184d")
 	)
 	(label "USB_PD_GND"
-		(at 96.52 31.75 180)
+		(at 88.9 31.75 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2036,7 +2036,7 @@
 		(uuid "a359f4ea-1f2b-4b46-8512-f363aeeb79e7")
 	)
 	(label "BUCK_BOOST_GND"
-		(at 118.11 31.75 0)
+		(at 110.49 31.75 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2432,7 +2432,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 190.5 30.48 0)
+		(at 190.5 29.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2441,7 +2441,7 @@
 		(fields_autoplaced yes)
 		(uuid "59fd6c0c-ad95-4914-affa-3bd0e7045cd3")
 		(property "Reference" "J12"
-			(at 193.04 30.4799 0)
+			(at 193.04 29.2099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2450,7 +2450,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02"
-			(at 193.04 33.0199 0)
+			(at 193.04 31.7499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2459,7 +2459,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 190.5 30.48 0)
+			(at 190.5 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2468,7 +2468,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 190.5 30.48 0)
+			(at 190.5 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2477,7 +2477,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 190.5 30.48 0)
+			(at 190.5 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2666,7 +2666,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 110.49 29.21 0)
+		(at 102.87 29.21 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2675,7 +2675,7 @@
 		(dnp no)
 		(uuid "aa8ec2cd-2154-4784-92fc-73e56f758124")
 		(property "Reference" "J5"
-			(at 113.03 24.13 0)
+			(at 105.41 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2684,7 +2684,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02"
-			(at 110.998 45.466 90)
+			(at 112.522 35.306 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2693,7 +2693,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 110.49 29.21 0)
+			(at 102.87 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2702,7 +2702,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 110.49 29.21 0)
+			(at 102.87 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2711,7 +2711,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 110.49 29.21 0)
+			(at 102.87 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3066,7 +3066,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 105.41 29.21 0)
+		(at 97.79 29.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3074,7 +3074,7 @@
 		(dnp no)
 		(uuid "f9cc9175-9ac0-403f-985d-62a13f71d7c4")
 		(property "Reference" "J4"
-			(at 103.124 24.13 0)
+			(at 95.504 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3083,7 +3083,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02"
-			(at 94.996 35.052 0)
+			(at 87.376 35.052 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3092,7 +3092,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 105.41 29.21 0)
+			(at 97.79 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3101,7 +3101,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 105.41 29.21 0)
+			(at 97.79 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3110,7 +3110,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 105.41 29.21 0)
+			(at 97.79 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3500,7 +3500,7 @@
 				(justify right)
 			)
 		)
-		(pin "3V3" input
+		(pin "3V3" output
 			(at 172.72 41.91 0)
 			(uuid "91faf842-da66-47eb-ad69-469212a5beb9")
 			(effects
@@ -3510,8 +3510,8 @@
 				(justify right)
 			)
 		)
-		(pin "VOUT" input
-			(at 172.72 30.48 0)
+		(pin "VOUT" output
+			(at 172.72 29.21 0)
 			(uuid "35b2f3c2-013e-4d04-b7fa-330339639513")
 			(effects
 				(font
@@ -3520,7 +3520,7 @@
 				(justify right)
 			)
 		)
-		(pin "EN" output
+		(pin "~{EN}" input
 			(at 149.86 36.83 180)
 			(uuid "5d1413d9-7b2c-47f5-93d8-831b93fe8613")
 			(effects
@@ -3530,7 +3530,7 @@
 				(justify left)
 			)
 		)
-		(pin "VIN" output
+		(pin "VIN" input
 			(at 149.86 29.21 180)
 			(uuid "fab958d3-8669-4e8b-b586-1283236c0719")
 			(effects
@@ -3550,7 +3550,7 @@
 				(justify left)
 			)
 		)
-		(pin "SCL" output
+		(pin "SCL" input
 			(at 149.86 41.91 180)
 			(uuid "81c91658-a2a0-4a85-b150-94ea5b24d54c")
 			(effects
@@ -3560,7 +3560,7 @@
 				(justify left)
 			)
 		)
-		(pin "ALERT" input
+		(pin "ALERT" output
 			(at 149.86 34.29 180)
 			(uuid "91fa10b4-c87b-40ad-9ce2-cac4b996196a")
 			(effects
@@ -3642,7 +3642,7 @@
 				(justify left)
 			)
 		)
-		(pin "ALERT" input
+		(pin "ALERT" output
 			(at 74.93 53.34 0)
 			(uuid "b4bd4750-b61d-49ba-a872-c2d05789f351")
 			(effects
@@ -3672,7 +3672,7 @@
 				(justify left)
 			)
 		)
-		(pin "V-OUT" bidirectional
+		(pin "VOUT" output
 			(at 74.93 29.21 0)
 			(uuid "d9ae4b5f-f019-4aad-a81e-6429e8488870")
 			(effects
@@ -3682,7 +3682,7 @@
 				(justify right)
 			)
 		)
-		(pin "ATTACH" input
+		(pin "ATTACH" output
 			(at 74.93 55.88 0)
 			(uuid "7f3797db-42b5-4d1e-a042-a83e2ddff6bf")
 			(effects
@@ -3702,7 +3702,7 @@
 				(justify left)
 			)
 		)
-		(pin "+3V3" output
+		(pin "3V3" output
 			(at 49.53 57.15 180)
 			(uuid "7f3a5979-45e8-4f0d-aa0c-b9968e349f76")
 			(effects
@@ -3712,7 +3712,7 @@
 				(justify left)
 			)
 		)
-		(pin "RESET" output
+		(pin "RESET" input
 			(at 74.93 58.42 0)
 			(uuid "c652b0d5-827d-44e4-82de-6f37aeb9290f")
 			(effects

@@ -1476,7 +1476,7 @@
 		(uuid "5feef660-604e-45ab-9868-4517925b4418")
 	)
 	(hierarchical_label "V_SUPPLY"
-		(shape output)
+		(shape input)
 		(at 113.03 46.99 90)
 		(effects
 			(font
@@ -1531,7 +1531,7 @@
 		(uuid "32892e9c-01ac-43ff-b6b5-fe1e4c60daa8")
 	)
 	(hierarchical_label "VIN"
-		(shape output)
+		(shape input)
 		(at 48.26 57.15 90)
 		(effects
 			(font
@@ -1542,7 +1542,7 @@
 		(uuid "3b337b74-66d1-42b5-8d69-292e9dec2991")
 	)
 	(hierarchical_label "SCL"
-		(shape output)
+		(shape input)
 		(at 125.73 66.04 0)
 		(effects
 			(font
@@ -1575,7 +1575,7 @@
 		(uuid "a51ff783-56ec-4eef-a26c-aeceb0a41da3")
 	)
 	(hierarchical_label "ALERT"
-		(shape input)
+		(shape output)
 		(at 97.79 71.12 0)
 		(effects
 			(font
@@ -1586,7 +1586,7 @@
 		(uuid "aea17454-0540-48d5-8da8-b199b259e59c")
 	)
 	(hierarchical_label "VOUT"
-		(shape input)
+		(shape output)
 		(at 48.26 77.47 270)
 		(effects
 			(font
@@ -1641,7 +1641,7 @@
 		(uuid "f90f4c5a-1386-49e1-98c6-ed9a99a61cf9")
 	)
 	(hierarchical_label "V_SUPPLY"
-		(shape output)
+		(shape input)
 		(at 83.82 46.99 90)
 		(effects
 			(font
