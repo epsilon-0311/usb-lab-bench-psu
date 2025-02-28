@@ -4357,6 +4357,10 @@
 		(uuid "ff435f84-9957-493e-a442-05dd0799363d")
 	)
 	(no_connect
+		(at 146.05 55.88)
+		(uuid "7e177455-159a-483e-934d-4ea2470357ff")
+	)
+	(no_connect
 		(at 20.32 173.99)
 		(uuid "9df496b6-af7d-46da-8295-ce3911f977a1")
 	)
@@ -6370,16 +6374,6 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 55.88) (xy 146.05 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "db1c3745-f320-4733-9ef7-bdc4217d4b17")
-	)
-	(wire
-		(pts
 			(xy 46.99 44.45) (xy 54.61 44.45)
 		)
 		(stroke
@@ -7215,7 +7209,7 @@
 		)
 		(uuid "9570daca-36cd-4a30-a9eb-507b6822b0b7")
 	)
-	(hierarchical_label "USB_ATTACH"
+	(hierarchical_label "USB_~{INT}"
 		(shape output)
 		(at 134.62 60.96 180)
 		(effects
@@ -7225,17 +7219,6 @@
 			(justify right)
 		)
 		(uuid "9afb5db2-1ef5-40e4-87e4-0874eea5e8c0")
-	)
-	(hierarchical_label "USB_ALERT"
-		(shape output)
-		(at 134.62 55.88 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a0fae9ce-42da-480f-9081-c67e1bbf5b5e")
 	)
 	(hierarchical_label "I2C_SDA"
 		(shape bidirectional)
